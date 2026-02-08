@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="preview-container">
+        <img class="preview" alt="Majestic Mountains" src="majesticmountains.jpg"     
+            src="" onmouseover="upDate(this)"
+            onmouseleave="undo()">
+
+        <img class="preview" alt="Ocean Sunset" src="oceansunset.jpg"
+            onmouseover="upDate(this)" onmouseleave="undo()">
+
+        <img class="preview" alt="Autumn Forest" src="autumnforest.avif"
+            onmouseover="upDate(this)" onmouseleave="undo()">
+    </div>
+
+</body>
+
+</html>
